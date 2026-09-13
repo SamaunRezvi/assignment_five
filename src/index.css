@@ -22,21 +22,13 @@ body {
   background-image: linear-gradient(90deg, #f97316 0%, #ec4899 55%, #8b5cf6 100%);
 }
 
-/* subtle wiggle on hover for technology cards, on top of the shadow/lift transition */
-@keyframes card-shake {
-  0%, 100% {
-    transform: translateY(-4px) rotate(0deg);
-  }
-  25% {
-    transform: translateY(-4px) rotate(-0.6deg);
-  }
-  75% {
-    transform: translateY(-4px) rotate(0.6deg);
-  }
+/* smooth lift on hover for technology cards - paired with hover:shadow-xl */
+.tech-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .tech-card:hover {
-  animation: card-shake 0.3s ease-in-out forwards;
+  transform: translateY(-4px);
 }
 
 /* keep toasts compact and centered on small screens instead of
