@@ -46,7 +46,7 @@ export default function Navbar() {
 
           {/* right side auth buttons */}
           <div className="flex items-center gap-2 sm:gap-3">
-            <button className="hidden sm:inline-block text-sm font-medium text-gray-700 hover:text-gray-900">
+            <button className="text-xs sm:text-sm font-medium text-gray-700 hover:text-gray-900 whitespace-nowrap">
               Sign In
             </button>
             <button className="bg-brand-gradient text-white text-xs sm:text-sm font-semibold px-3.5 sm:px-5 py-2 rounded-full hover:opacity-90 transition-opacity whitespace-nowrap">
@@ -73,15 +73,6 @@ export default function Navbar() {
                 </li>
               ))}
             </ul>
-
-            <div className="mt-4 flex flex-col items-center gap-3 border-t border-gray-100 pt-4">
-              <button className="text-sm font-medium text-gray-700 hover:text-gray-900">
-                Sign In
-              </button>
-              <button className="bg-brand-gradient text-white text-sm font-semibold px-6 py-2 rounded-full hover:opacity-90 transition-opacity">
-                Sign Up
-              </button>
-            </div>
           </div>
         )}
       </nav>
