@@ -57,13 +57,15 @@ export default function Navbar() {
 
         {/* mobile dropdown menu */}
         {menuOpen && (
-          <div className="md:hidden pb-4">
-            <ul className="flex flex-col gap-3">
-              {navLinks.map((link) => (
+          <div className="md:hidden pb-5">
+            <ul className="flex flex-col items-center gap-3">
+              {navLinks.map((link, index) => (
                 <li key={link}>
                   <a
                     href={`#${link.toLowerCase()}`}
-                    className="block text-sm font-medium text-gray-700 hover:text-pink-600"
+                    className={`block text-sm font-medium ${
+                      index === 0 ? 'text-pink-600' : 'text-gray-700 hover:text-pink-600'
+                    }`}
                     onClick={() => setMenuOpen(false)}
                   >
                     {link}
@@ -71,6 +73,15 @@ export default function Navbar() {
                 </li>
               ))}
             </ul>
+
+            <div className="mt-4 flex flex-col items-center gap-3 border-t border-gray-100 pt-4">
+              <button className="text-sm font-medium text-gray-700 hover:text-gray-900">
+                Sign In
+              </button>
+              <button className="bg-brand-gradient text-white text-sm font-semibold px-6 py-2 rounded-full hover:opacity-90 transition-opacity">
+                Sign Up
+              </button>
+            </div>
           </div>
         )}
       </nav>
