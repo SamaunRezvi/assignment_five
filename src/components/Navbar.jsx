@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from '../assets/logo-text.png'
+import logoIcon from '../assets/logo-icon.png'
 
 const navLinks = ['Home', 'Technologies', 'Projects', 'About', 'Contact']
 
@@ -24,8 +24,14 @@ export default function Navbar() {
           </button>
 
           {/* brand logo - centered on mobile, left on desktop */}
-          <a href="#home" className="flex items-center md:mr-8 flex-1 justify-center md:flex-none md:justify-start">
-            <img src={logo} alt="Dev Stack" className="h-7 sm:h-8 w-auto" />
+          <a
+            href="#home"
+            className="flex items-center gap-2 md:mr-8 flex-1 justify-center md:flex-none md:justify-start"
+          >
+            <img src={logoIcon} alt="" className="h-7 sm:h-8 w-auto rounded-md" />
+            <span className="text-base sm:text-lg font-bold text-gray-900">
+              Dev <span className="text-brand-gradient">Stack</span>
+            </span>
           </a>
 
           {/* desktop center nav links */}

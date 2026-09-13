@@ -1,4 +1,4 @@
-import logo from '../assets/logo-text.png'
+import logoIcon from '../assets/logo-icon.png'
 
 const linkGroups = [
   {
@@ -21,7 +21,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-10">
           <div>
-            <img src={logo} alt="Dev Stack" className="h-8 w-auto" />
+            <div className="flex items-center gap-2">
+              <img src={logoIcon} alt="" className="h-8 w-auto rounded-md" />
+              <span className="text-lg font-bold text-gray-900">
+                Dev <span className="text-brand-gradient">Stack</span>
+              </span>
+            </div>
             <p className="mt-3 text-sm text-gray-500 max-w-xs">
               Curated tools, technologies, and resources for developers building modern
               software.
