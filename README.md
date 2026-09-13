@@ -1,43 +1,42 @@
 ﻿<a id="top"></a>
 
-<table>
-<tr>
-<td width="58%" valign="middle">
-  <img src="./src/assets/logo-text.png" alt="Dev Stack" width="180" />
-  <br /><br />
-  <sub>A TOOLKIT FOR YOUR NEXT IDEA</sub>
-  <h1>Build a stack.<br />Make it yours.</h1>
-  <p>Explore the tools. Find your fit.<br />Bring your development stack together.</p>
-  <br />
-  <a href="#getting-started"><strong>Get started ↗</strong></a> &nbsp;&nbsp;
-  <a href="https://github.com/SamaunRezvi/assignment_five"><strong>Explore the code ↗</strong></a>
-  <br /><br />
-  <sub>REACT &nbsp; / &nbsp; VITE &nbsp; / &nbsp; TAILWIND CSS</sub>
-</td>
-<td width="42%" align="center" valign="middle">
-  <img src="./src/assets/banner-stack.png" alt="An isometric development stack with luminous violet, pink and blue layers" width="380" />
-</td>
-</tr>
-</table>
-
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=17&amp;duration=3200&amp;pause=2000&amp;color=A78BFA&amp;center=true&amp;vCenter=true&amp;width=640&amp;height=52&amp;lines=Frontend.+Backend.+Everything+in+between.;One+place+for+your+next+development+stack." alt="Frontend, backend and everything in between. One place for your next development stack." width="640" />
+<br />
 
-<sub><strong>15</strong> TECHNOLOGIES &nbsp;&nbsp; / &nbsp;&nbsp; <strong>07</strong> CATEGORIES &nbsp;&nbsp; / &nbsp;&nbsp; <strong>01</strong> PERSONAL STACK</sub>
+<img src="./src/assets/banner-stack.png" alt="An isometric development stack with luminous violet, pink and blue layers" width="300" />
+
+<img src="./src/assets/logo-text.png" alt="Dev Stack" width="220" />
+
+### Build a stack. Make it yours.
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=2000&amp;color=A78BFA&amp;center=true&amp;vCenter=true&amp;width=640&amp;height=50&amp;lines=Frontend.+Backend.+Everything+in+between.;One+place+for+your+next+development+stack." alt="Frontend, backend and everything in between. One place for your next development stack." width="640" />
+
+<br />
+
+<img src="https://img.shields.io/badge/React_18-000000?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="React 18" />
+<img src="https://img.shields.io/badge/Vite_6-000000?style=for-the-badge&amp;logo=vite&amp;logoColor=BD93F9" alt="Vite 6" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-000000?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=38BDF8" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/React_Toastify-000000?style=for-the-badge&amp;logo=react&amp;logoColor=FF6B9D" alt="React Toastify" />
 
 <br /><br />
 
-<a href="#about-the-project">Overview</a> &nbsp; · &nbsp;
-<a href="#the-experience">Experience</a> &nbsp; · &nbsp;
-<a href="#under-the-hood">Architecture</a> &nbsp; · &nbsp;
-<a href="#getting-started">Setup</a> &nbsp; · &nbsp;
-<a href="#react-questions">React Q&amp;A</a> &nbsp; · &nbsp;
-<a href="#submission">Submission</a>
+<sub><strong>15</strong> TECHNOLOGIES &nbsp;&nbsp;◆&nbsp;&nbsp; <strong>07</strong> CATEGORIES &nbsp;&nbsp;◆&nbsp;&nbsp; <strong>01</strong> PERSONAL STACK</sub>
+
+<br /><br />
+
+<a href="#about-the-project"><strong>Overview</strong></a> &nbsp; · &nbsp;
+<a href="#the-experience"><strong>Experience</strong></a> &nbsp; · &nbsp;
+<a href="#under-the-hood"><strong>Architecture</strong></a> &nbsp; · &nbsp;
+<a href="#getting-started"><strong>Setup</strong></a> &nbsp; · &nbsp;
+<a href="#react-questions"><strong>React Q&amp;A</strong></a> &nbsp; · &nbsp;
+<a href="#submission"><strong>Submission</strong></a>
+
+<br />
 
 </div>
 
-<br />
+---
 
 ## About the Project
 
@@ -82,14 +81,17 @@ Built with React, this project focuses on a complete selection flow: loading dat
 
 > **Session behavior:** Selections live in React state. Refreshing the page starts a fresh stack.
 
+---
+
 ## Tech Stack
 
-<p>
-  <img src="https://img.shields.io/badge/React_18-18181b?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React 18" />
-  <img src="https://img.shields.io/badge/Vite_6-18181b?style=flat-square&amp;logo=vite&amp;logoColor=A78BFA" alt="Vite 6" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS_3-18181b?style=flat-square&amp;logo=tailwindcss&amp;logoColor=38BDF8" alt="Tailwind CSS 3" />
-  <img src="https://img.shields.io/badge/JavaScript-18181b?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript" />
-</p>
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,js,html,css&amp;theme=dark" alt="React, Vite, Tailwind CSS, JavaScript, HTML, CSS" />
+
+</div>
+
+<br />
 
 | Technology | Responsibility |
 | :--- | :--- |
@@ -116,6 +118,8 @@ Built with React, this project focuses on a complete selection flow: loading dat
 | Tools | Git, Vite |
 
 </details>
+
+---
 
 ## Under the Hood
 
@@ -164,6 +168,8 @@ src/
 
 </details>
 
+---
+
 ## Getting Started
 
 From the project folder, with Node.js and npm installed:
@@ -181,6 +187,8 @@ Open the local URL shown in the terminal, usually `http://localhost:5173`.
 | Build for production | `npm run build` |
 | Preview the build | `npm run preview` |
 | Run ESLint | `npm run lint` |
+
+---
 
 ## React Questions
 
@@ -248,6 +256,8 @@ A parent passes data through props. It can also pass a callback function for the
 
 In this example, `tech` and `isAdded` supply the card's data and selection status. Clicking **Add to Stack** calls `onAdd(tech)` inside `TechCard`. The parent's `handleAdd` function then updates the stack state in `TechnologiesSection`.
 
+---
+
 ## Submission
 
 | Resource | Link |
@@ -255,14 +265,22 @@ In this example, `tech` and `isAdded` supply the card's data and selection statu
 | GitHub Repository Link | [SamaunRezvi/assignment_five](https://github.com/SamaunRezvi/assignment_five) |
 | Live Site Link | Not provided yet. |
 
-<br />
+---
 
 <div align="center">
 
-<img src="./src/assets/logo-text.png" alt="Dev Stack" width="120" />
+<br />
+
+<img src="./src/assets/logo-text.png" alt="Dev Stack" width="140" />
 
 <p><sub>A place for your next stack.</sub></p>
 
-<a href="#top"><sub>Back to top ↑</sub></a>
+<img src="https://img.shields.io/badge/Made_with-React-EC4899?style=flat-square&amp;logo=react&amp;logoColor=white" alt="Made with React" />
+
+<br /><br />
+
+<a href="#top"><strong>Back to top ↑</strong></a>
+
+<br /><br />
 
 </div>
