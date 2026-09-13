@@ -4,18 +4,40 @@
 
 <img src="./assets/readme-stack.svg" alt="Dev Stack Builder: Your next idea, fully stacked. Animated 3D layers for interface, logic and data." width="1120" />
 
-<br /><br />
+<br />
 
-<a href="#about-the-project">The project</a> &nbsp; / &nbsp;
-<a href="#the-experience">The experience</a> &nbsp; / &nbsp;
-<a href="#tech-stack">The toolkit</a> &nbsp; / &nbsp;
-<a href="#getting-started">Get started</a> &nbsp; / &nbsp;
-<a href="#react-questions">React Q&amp;A</a>
+<table width="100%">
+<tr>
+<td width="20%" align="center">
+  <sub>01</sub><br />
+  <a href="#about-the-project"><strong>Project</strong></a>
+</td>
+<td width="20%" align="center">
+  <sub>02</sub><br />
+  <a href="#the-experience"><strong>Experience</strong></a>
+</td>
+<td width="20%" align="center">
+  <sub>03</sub><br />
+  <a href="#tech-stack"><strong>Toolkit</strong></a>
+</td>
+<td width="20%" align="center">
+  <sub>04</sub><br />
+  <a href="#getting-started"><strong>Setup ↗</strong></a>
+</td>
+<td width="20%" align="center">
+  <sub>05</sub><br />
+  <a href="#react-questions"><strong>React Q&amp;A</strong></a>
+</td>
+</tr>
+</table>
 
-<br /><br />
+<br />
 
-<strong>A personal workspace for your technology choices.</strong><br />
-<sub>Browse the catalog. Assemble your stack. Make room for your next idea.</sub>
+<sub>YOUR NEXT BUILD STARTS HERE</sub>
+
+<h3>One workspace. Your ideal stack.</h3>
+
+<p>Discover the tools that fit your idea.<br />Bring them together in a stack of your own.</p>
 
 </div>
 
