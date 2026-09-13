@@ -257,7 +257,7 @@ In this example, `tech` and `isAdded` supply the card's data and selection statu
 | Resource | Link |
 | :--- | :--- |
 | GitHub Repository Link | [SamaunRezvi/assignment_five](https://github.com/SamaunRezvi/assignment_five) |
-| Live Site Link | Not provided yet. |
+| Live Site Link | [Dev Stack Builder](https://assignment-five-six.vercel.app/) |
 
 <br />
 
