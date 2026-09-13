@@ -20,6 +20,7 @@
 </div>
 
 <br />
+
 ## About the Project
 
 **Dev Stack Builder brings your technology choices into one place.**
@@ -109,12 +110,10 @@ Built with React, this project focuses on a complete selection flow: loading dat
 
 ```mermaid
 flowchart TB
-    catalog["Local JSON catalog"] -->|fetch in useEffect| owner["TechnologiesSection · shared state"]
-    owner -->|technology + selection status| cards["TechCard"]
-    owner -->|selected technologies| panel["YourStack"]
-    cards -->|onAdd| owner
-    panel -->|onRemove / onRemoveAll| owner
-    owner -->|action feedback| feedback["Toast notifications"]
+    catalog["Local JSON catalog<br/>Loaded with useEffect"] --> owner["TechnologiesSection<br/>Catalog, loading and stack state"]
+    owner --> cards["TechCard<br/>Technology and selection status"]
+    owner --> panel["YourStack<br/>Selected technologies"]
+    owner --> feedback["Toast notifications<br/>Action feedback"]
 
     classDef source fill:#211A12,stroke:#F97316,color:#FFF7ED
     classDef state fill:#241A38,stroke:#A78BFA,color:#F5F3FF,stroke-width:2px
@@ -125,6 +124,14 @@ flowchart TB
     class cards,panel view
     class feedback message
 ```
+
+**How actions update the shared state**
+
+| From | Callback | Parent action |
+| :--- | :--- | :--- |
+| `TechCard` | `onAdd(tech)` | Check for duplicates and add the technology. |
+| `YourStack` | `onRemove(id)` | Remove the selected technology. |
+| `YourStack` | `onRemoveAll()` | Clear the stack. |
 
 <details>
 <summary><strong>Project structure</strong></summary>
