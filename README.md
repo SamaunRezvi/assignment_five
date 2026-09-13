@@ -1,82 +1,159 @@
+﻿<div align="center">
+
+<img src="./src/assets/logo-text.png" alt="Dev Stack" width="220" />
+
 # Dev Stack Builder
 
-A frontend project where developers can browse a curated list of technologies (frontend, backend, database, languages, styling and DevOps tools), pick the ones they like, and build a personal "stack" out of them, kind of like a shopping cart but for tech choices.
+**Explore technologies. Pick your tools. Build your stack.**
 
-The whole idea started because I always found it annoying to keep a mental list of the tools I wanted to try out for a new project, so I built a small app that lets me explore them and collect the ones I'm interested in on the side.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=2600&amp;pause=1000&amp;color=EC4899&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=55&amp;lines=Build+Your+Ideal+Development+Stack;Frontend+to+Database;Your+Tools.+Your+Next+Project." alt="Animated heading: Build your ideal development stack. Frontend to database. Your tools, your next project." width="600" />
+
+<br />
+
+<img src="./src/assets/banner-stack.png" alt="A 3D illustration of stacked technology layers glowing in pink, violet and blue" width="360" />
+
+<br />
+
+<img src="https://img.shields.io/badge/React-18-8b5cf6?style=for-the-badge&amp;logo=react&amp;logoColor=white" alt="React 18" />
+<img src="https://img.shields.io/badge/Vite-6-f97316?style=for-the-badge&amp;logo=vite&amp;logoColor=white" alt="Vite 6" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-3-ec4899?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=white" alt="Tailwind CSS 3" />
+
+<p>
+  <a href="#what-it-does">Features</a> &middot;
+  <a href="#tech-stack">Tech Stack</a> &middot;
+  <a href="#getting-started">Run Locally</a> &middot;
+  <a href="#react-questions">React Questions</a> &middot;
+  <a href="#submission">Submission</a>
+</p>
+
+**15 technologies &nbsp; / &nbsp; 7 categories &nbsp; / &nbsp; Your own stack**
+
+</div>
+
+## About the Project
+
+Dev Stack Builder is a React frontend project for exploring development tools and collecting the ones you want to use. Browse technology cards, check their categories and ratings, then add your choices to the Your Stack panel.
+
+The interface uses an orange, pink and violet gradient with a 3D stack illustration, simple cards and a responsive layout.
 
 ## What it does
 
-- Browse 15 technologies across categories like Frontend, Backend, Database, Language, Styling, DevOps and Tools.
-- Each technology card shows an icon, a badge, a short description, its category, difficulty level and a star rating.
-- Click "Add to Stack" to save a technology to your personal stack panel on the side.
-- The same technology can't be added twice — trying again shows a toast warning instead.
-- Remove a single item from the stack, or clear everything at once with "Remove All".
-- Fully responsive layout that works on mobile, tablet and desktop.
+| Explore | Build | Manage |
+| :--- | :--- | :--- |
+| Browse 15 technology cards across 7 categories. | Add technologies to your personal stack. | Remove one selection or clear the whole stack. |
+| View each tool's icon, description, badge, difficulty and rating. | See the selected count update immediately. | Get toast feedback when the selection changes. |
+| Use the layout on mobile, tablet and desktop. | Added cards show their selected state. | Duplicate entries are prevented. |
+
+### From browsing to building
+
+1. Open **Explore the Technologies** and browse the cards.
+2. Click **Add to Stack** on a technology you want to use.
+3. Review your choices in **Your Stack** with the current selection count.
+4. Remove an individual tool or use **Remove All** to start again.
+
+Selections are kept in React state for the current page session. Refreshing the page resets the stack.
 
 ## Tech Stack
 
-- React (with hooks — useState, useEffect)
-- Vite as the build tool
-- Tailwind CSS for styling
-- React-Toastify for the alert/notification popups
-- Plain JSON file as the data source for the technology list
+| Technology | Role in this project |
+| :--- | :--- |
+| React 18 | Components, props, state and UI updates |
+| Vite 6 | Local development server and production build |
+| Tailwind CSS 3 | Responsive layouts, spacing and brand colors |
+| DaisyUI | Loading spinner styling |
+| React Toastify | Selection feedback and notifications |
+| Local JSON | Technology catalog loaded with `fetch` |
+
+### Technology Catalog
+
+| Category | Available technologies |
+| :--- | :--- |
+| Frontend | React, Vue.js, Svelte, Next.js |
+| Backend | Node.js |
+| Database | PostgreSQL, Redis, MongoDB |
+| Language | JavaScript, TypeScript, Java |
+| Styling | Tailwind CSS |
+| DevOps | Docker |
+| Tools | Git, Vite |
 
 ## Features
 
-1. **Live stack builder** — adding and removing technologies updates the "Your Stack" panel instantly, with a running count of how many are selected.
-2. **Toast notifications everywhere** — every action (add, duplicate attempt, remove, remove all) gives you clear feedback through react-toastify instead of silently changing state.
-3. **One shared brand gradient** — the orange → pink → violet gradient used on the logo, the hero heading and the primary buttons is defined once in the Tailwind config and CSS, so re-theming the whole site is a one-line change.
+- **Live stack panel:** Adding or removing a technology updates the list and selected count immediately.
+- **Duplicate protection:** An added card has a disabled button, and the add handler also checks for existing selections.
+- **Action feedback:** Toast messages confirm additions, removals and clearing the stack. The duplicate guard has a warning message.
+- **Responsive navigation:** A collapsible menu supports smaller screens.
+- **Loading state:** A spinner appears while the local technology catalog loads.
+- **Consistent branding:** The logo, hero heading and primary buttons share the project's orange, pink and violet palette.
 
 ## Getting Started
+
+Install Node.js and npm, then run these commands from the project folder:
 
 ```bash
 npm install
 npm run dev
 ```
 
-Then open `http://localhost:5173` in your browser.
+Open the local URL printed in the terminal, usually `http://localhost:5173`.
 
-To build for production:
-
-```bash
-npm run build
-```
-
----
+| Command | Purpose |
+| :--- | :--- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Create the production build in `dist` |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Check the code with ESLint |
 
 ## React Questions
 
-**1. What is JSX, and why is it used in React?**
+### 1. What is JSX, and why is it used in React?
 
-JSX is a syntax extension for JavaScript that lets you write HTML-looking markup directly inside your JS/JSX files. Under the hood it gets compiled into regular `React.createElement()` calls. It's used because it makes describing what the UI should look like a lot easier to read and write than nesting a bunch of function calls by hand.
+JSX is a syntax extension for JavaScript that lets us write markup inside a component. A build tool transforms it into JavaScript calls that describe React elements. It makes the UI easier to read because the markup and the expressions used to display data can stay together. In this project, the technology cards and stack panel are written with JSX.
 
-**2. What is the difference between props and state?**
+### 2. What is the difference between props and state?
 
-Props are values passed down into a component from its parent — the component receiving them can't change them, they're read-only from its point of view. State is data a component manages internally with something like `useState`, and it can change over time (usually because of user interaction), which triggers a re-render. In short: props come from outside, state lives inside.
+Props are values a parent passes to a child component. The child reads them without changing them directly. State is data a component stores and updates, and updating it asks React to render the UI again. Here, `TechnologiesSection` owns the `stack` state and passes it to `YourStack` as a prop.
 
-**3. What does the `useState` hook do, and where did you use it in this project?**
+### 3. What does the `useState` hook do, and where did you use it in this project?
 
-`useState` lets a functional component hold and update its own piece of data between renders. In this project I used it in a few places — for example in `TechnologiesSection.jsx` to keep track of the list of technologies fetched from the JSON file, the loading flag, and the array of technologies the user has added to their stack. I also used it in `Navbar.jsx` to track whether the mobile menu is open or closed.
+`useState` stores a value between renders and provides a function to update it. In `TechnologiesSection.jsx`, it holds the fetched technologies, the loading flag and the selected stack. In `Navbar.jsx`, it stores whether the mobile menu is open.
 
-**4. What does the `useEffect` hook do, and why did you need it to load the JSON data?**
+```jsx
+const [stack, setStack] = useState([])
+```
 
-`useEffect` runs a side effect after a component renders — things like fetching data, subscribing to something, or manually touching the DOM, which shouldn't happen directly during rendering. I needed it to load the technology data because fetching from the JSON file is an async operation that has to happen once when the component first mounts, not on every render, so I used `useEffect` with an empty dependency array (`[]`) to run it a single time.
+### 4. What does the `useEffect` hook do, and why did you need it to load the JSON data?
 
-**5. Why does every item in a `.map()` list need a unique `key` prop?**
+`useEffect` runs an effect after React commits a render. In this project, it fetches `/data/technologies.json` and updates the technology list and loading state when the request completes. The empty dependency array means the effect does not run again for ordinary state updates. React Strict Mode can run an extra setup cycle during development.
 
-React uses the `key` to figure out which items changed, were added, or were removed between renders, so it can update the DOM efficiently instead of re-rendering the whole list. Without a stable, unique key, React can mix up items when the list changes, which leads to weird bugs like wrong items being highlighted or input state jumping to the wrong row. In this project I used each technology's `id` as the key since it's guaranteed to be unique.
+### 5. Why does every item in a `.map()` list need a unique `key` prop?
 
-**6. What is conditional rendering? Show one place you used it (example: the empty stack message).**
+A stable key helps React match a list item with the same item on the next render, even when items are added or removed. Keys should be unique among siblings. This project uses each technology's `id` as the key for both technology cards and selected stack items.
 
-Conditional rendering just means showing different UI depending on some condition, instead of always rendering the same thing. I used it in `YourStack.jsx` — if the stack array is empty, it shows a "Your stack is empty" placeholder message, and if there's at least one item, it renders the actual list of selected technologies along with the "Remove All" button instead.
+### 6. What is conditional rendering? Show one place you used it (example: the empty stack message).
 
-**7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?**
+Conditional rendering chooses which UI to show based on a condition. In `YourStack.jsx`, `stack.length === 0` shows the "Your stack is empty." placeholder. When the stack contains items, the component shows the selected technologies, their count and the **Remove All** button.
 
-A parent passes data down to a child through props, just like passing arguments to a function — for example `<TechCard tech={tech} isAdded={isAdded} onAdd={handleAdd} />`. For a child to send information back up, the parent passes down a function as a prop (like `onAdd`), and the child calls that function whenever it needs to, passing along whatever data the parent needs. That's how, for example, clicking "Add to Stack" inside `TechCard` is able to update the stack state that actually lives in `TechnologiesSection`.
+### 7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
 
----
+A parent passes data through props. It can also pass a callback function for the child to call when an action happens.
+
+```jsx
+<TechCard tech={tech} isAdded={isAdded} onAdd={handleAdd} />
+```
+
+In this example, `tech` and `isAdded` supply the card's data and selection status. Clicking **Add to Stack** calls `onAdd(tech)` inside `TechCard`. The parent's `handleAdd` function then updates the stack state in `TechnologiesSection`.
 
 ## Submission
 
-- GitHub Repository Link:
-- Live Site Link:
+- **GitHub Repository Link:** [SamaunRezvi/assignment_five](https://github.com/SamaunRezvi/assignment_five)
+- **Live Site Link:** Not provided yet.
+
+<div align="center">
+
+<br />
+
+**Dev Stack Builder**
+
+Explore. Select. Build.
+
+</div>
