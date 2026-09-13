@@ -1,7 +1,7 @@
 export default function TechCard({ tech, isAdded, onAdd }) {
   return (
     <div
-      className={`bg-white border rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col ${
+      className={`tech-card bg-white border rounded-2xl p-6 shadow-sm hover:shadow-xl transition-shadow duration-200 flex flex-col ${
         isAdded ? 'border-pink-400' : 'border-gray-100'
       }`}
     >
