@@ -1,34 +1,58 @@
 ﻿<div align="center">
 
-<img src="./src/assets/logo-text.png" alt="Dev Stack" width="220" />
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:f97316,55:ec4899,100:8b5cf6&amp;height=110&amp;section=header" alt="Orange, pink and violet wave" width="100%" />
+
+<img src="./src/assets/logo-text.png" alt="Dev Stack" width="190" />
+
+<p><sub>EXPLORE &nbsp; / &nbsp; SELECT &nbsp; / &nbsp; BUILD</sub></p>
 
 # Dev Stack Builder
 
-**Explore technologies. Pick your tools. Build your stack.**
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=2600&amp;pause=1000&amp;color=EC4899&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=55&amp;lines=Build+Your+Ideal+Development+Stack;Frontend+to+Database;Your+Tools.+Your+Next+Project." alt="Animated heading: Build your ideal development stack. Frontend to database. Your tools, your next project." width="600" />
-
-<br />
-
-<img src="./src/assets/banner-stack.png" alt="A 3D illustration of stacked technology layers glowing in pink, violet and blue" width="360" />
-
-<br />
-
-<img src="https://img.shields.io/badge/React-18-8b5cf6?style=for-the-badge&amp;logo=react&amp;logoColor=white" alt="React 18" />
-<img src="https://img.shields.io/badge/Vite-6-f97316?style=for-the-badge&amp;logo=vite&amp;logoColor=white" alt="Vite 6" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-3-ec4899?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=white" alt="Tailwind CSS 3" />
+**A thoughtful toolkit for your next project.**
 
 <p>
-  <a href="#what-it-does">Features</a> &middot;
-  <a href="#tech-stack">Tech Stack</a> &middot;
-  <a href="#getting-started">Run Locally</a> &middot;
-  <a href="#react-questions">React Questions</a> &middot;
+  <a href="#what-it-does">Experience</a> &nbsp; &middot; &nbsp;
+  <a href="#tech-stack">Technologies</a> &nbsp; &middot; &nbsp;
+  <a href="#getting-started">Quick Start</a> &nbsp; &middot; &nbsp;
+  <a href="#react-questions">React Questions</a> &nbsp; &middot; &nbsp;
   <a href="#submission">Submission</a>
 </p>
 
-**15 technologies &nbsp; / &nbsp; 7 categories &nbsp; / &nbsp; Your own stack**
+</div>
+
+<br />
+
+<table>
+<tr>
+<td width="55%" valign="middle">
+  <h3>Your next idea.<br />Your ideal stack.</h3>
+  <p>Discover the tools behind modern development. Bring your frontend, backend and database choices together in one personal stack.</p>
+  <p>Explore a card. Find your fit. Add it to your stack.</p>
+  <br />
+  <a href="#getting-started"><img src="https://img.shields.io/badge/GET_STARTED-f97316?style=for-the-badge" alt="Get started" /></a>
+  <a href="https://github.com/SamaunRezvi/assignment_five"><img src="https://img.shields.io/badge/VIEW_SOURCE-8b5cf6?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="View source on GitHub" /></a>
+</td>
+<td width="45%" align="center" valign="middle">
+  <img src="./src/assets/banner-stack.png" alt="A 3D illustration of stacked technology layers glowing in pink, violet and blue" width="360" />
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=20&amp;duration=2800&amp;pause=1400&amp;color=EC4899&amp;center=true&amp;vCenter=true&amp;width=640&amp;height=65&amp;lines=Build+Your+Ideal+Development+Stack;Explore.+Select.+Make+It+Yours.;From+Your+First+Tool+to+Your+Full+Stack." alt="Animated heading: Build your ideal development stack. Explore, select, make it yours. From your first tool to your full stack." width="640" />
 
 </div>
+
+<table>
+<tr>
+<td width="33%" align="center"><h3>15</h3><sub>CURATED TECHNOLOGIES</sub><br /><br /></td>
+<td width="34%" align="center"><h3>07</h3><sub>DEVELOPMENT CATEGORIES</sub><br /><br /></td>
+<td width="33%" align="center"><h3>01</h3><sub>PERSONAL STACK</sub><br /><br /></td>
+</tr>
+</table>
+
+<br />
 
 ## About the Project
 
@@ -38,11 +62,32 @@ The interface uses an orange, pink and violet gradient with a 3D stack illustrat
 
 ## What it does
 
-| Explore | Build | Manage |
-| :--- | :--- | :--- |
-| Browse 15 technology cards across 7 categories. | Add technologies to your personal stack. | Remove one selection or clear the whole stack. |
-| View each tool's icon, description, badge, difficulty and rating. | See the selected count update immediately. | Get toast feedback when the selection changes. |
-| Use the layout on mobile, tablet and desktop. | Added cards show their selected state. | Duplicate entries are prevented. |
+<table>
+<tr>
+<td width="50%" valign="top">
+  <sub>01 / DISCOVER</sub>
+  <h3>A catalog worth exploring</h3>
+  <p>Browse 15 technologies with icons, descriptions, categories, difficulty levels and ratings. Get the details before making a choice.</p>
+</td>
+<td width="50%" valign="top">
+  <sub>02 / COLLECT</sub>
+  <h3>Your stack, taking shape</h3>
+  <p>Add a technology and see it appear in Your Stack. The selection count updates immediately, and added cards show their selected state.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <sub>03 / REFINE</sub>
+  <h3>Room to change your mind</h3>
+  <p>Remove an individual tool or clear your selections and start fresh. Duplicate protection keeps each technology in the stack only once.</p>
+</td>
+<td width="50%" valign="top">
+  <sub>04 / STAY INFORMED</sub>
+  <h3>Feedback at every step</h3>
+  <p>Toast notifications confirm selection changes. A loading indicator covers the catalog fetch, and the layout adapts to smaller screens.</p>
+</td>
+</tr>
+</table>
 
 ### From browsing to building
 
@@ -54,6 +99,13 @@ The interface uses an orange, pink and violet gradient with a 3D stack illustrat
 Selections are kept in React state for the current page session. Refreshing the page resets the stack.
 
 ## Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-18181b?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="React 18" />
+  <img src="https://img.shields.io/badge/Vite-6-18181b?style=for-the-badge&amp;logo=vite&amp;logoColor=A78BFA" alt="Vite 6" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3-18181b?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=38BDF8" alt="Tailwind CSS 3" />
+  <img src="https://img.shields.io/badge/JavaScript-ES_Modules-18181b?style=for-the-badge&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript ES modules" />
+</p>
 
 | Technology | Role in this project |
 | :--- | :--- |
@@ -78,12 +130,13 @@ Selections are kept in React state for the current page session. Refreshing the 
 
 ## Features
 
-- **Live stack panel:** Adding or removing a technology updates the list and selected count immediately.
-- **Duplicate protection:** An added card has a disabled button, and the add handler also checks for existing selections.
-- **Action feedback:** Toast messages confirm additions, removals and clearing the stack. The duplicate guard has a warning message.
-- **Responsive navigation:** A collapsible menu supports smaller screens.
-- **Loading state:** A spinner appears while the local technology catalog loads.
-- **Consistent branding:** The logo, hero heading and primary buttons share the project's orange, pink and violet palette.
+| Detail | How it works |
+| :--- | :--- |
+| Shared selection state | `TechnologiesSection` keeps the catalog and stack panel in sync. |
+| Duplicate guard | Selected cards disable their add button. The add handler also checks for duplicates and can show a warning toast. |
+| Mobile navigation | A collapsible menu provides navigation on smaller screens. |
+| Brand palette | Orange `#f97316`, pink `#ec4899` and violet `#8b5cf6` connect the logo, hero and primary buttons. |
+| Local catalog | Technology data is fetched from `public/data/technologies.json`. |
 
 ## Getting Started
 
@@ -104,6 +157,8 @@ Open the local URL printed in the terminal, usually `http://localhost:5173`.
 | `npm run lint` | Check the code with ESLint |
 
 ## React Questions
+
+The React concepts used to build the catalog, selection flow and stack panel.
 
 ### 1. What is JSX, and why is it used in React?
 
@@ -145,15 +200,21 @@ In this example, `tech` and `isAdded` supply the card's data and selection statu
 
 ## Submission
 
-- **GitHub Repository Link:** [SamaunRezvi/assignment_five](https://github.com/SamaunRezvi/assignment_five)
-- **Live Site Link:** Not provided yet.
+| Resource | Link |
+| :--- | :--- |
+| GitHub Repository Link | [SamaunRezvi/assignment_five](https://github.com/SamaunRezvi/assignment_five) |
+| Live Site Link | Not provided yet. |
 
 <div align="center">
 
 <br />
 
-**Dev Stack Builder**
+<img src="./src/assets/logo-text.png" alt="Dev Stack" width="150" />
 
-Explore. Select. Build.
+<p><strong>Good projects start with thoughtful choices.</strong><br /><sub>Explore. Select. Build.</sub></p>
+
+<a href="#dev-stack-builder">Back to top &uarr;</a>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:f97316,55:ec4899,100:8b5cf6&amp;height=100&amp;section=footer" alt="Orange, pink and violet footer wave" width="100%" />
 
 </div>
