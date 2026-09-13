@@ -43,19 +43,19 @@ body {
 
 @media only screen and (max-width: 480px) {
   .Toastify__toast-container {
-    top: 4.5rem;
-    left: 0;
+    top: 5rem;
+    left: auto;
     right: 0;
     width: auto;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     padding: 0 16px;
   }
 
   .Toastify__toast-container .Toastify__toast {
     width: auto;
-    max-width: 300px;
-    margin: 0 auto 0.5rem;
+    max-width: 260px;
+    margin: 0 0 0.5rem;
     min-height: unset;
     padding: 0.625rem 0.875rem;
   }
