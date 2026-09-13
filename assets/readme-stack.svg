@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="510" viewBox="0 0 1120 510" role="img" aria-labelledby="title description">
+  <title id="title">Dev Stack Builder</title>
+  <desc id="description">Your next idea, fully stacked. Three floating isometric layers represent interface, logic and data. Explore 15 technologies across 7 categories and build one personal stack.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#100e1b"/><stop offset="1" stop-color="#171022"/>
+    </linearGradient>
+    <linearGradient id="brand" x2="1" y2="0">
+      <stop stop-color="#ffb071"/><stop offset=".46" stop-color="#f28cc6"/><stop offset="1" stop-color="#bba0ff"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop stop-color="#8b5cf6" stop-opacity=".26"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="warm">
+      <stop stop-color="#ec4899" stop-opacity=".14"/><stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="violetTop" x2="1" y2="1">
+      <stop stop-color="#5c3c99"/><stop offset=".5" stop-color="#33254e"/><stop offset="1" stop-color="#7854ad"/>
+    </linearGradient>
+    <linearGradient id="pinkTop" x2="1" y2="1">
+      <stop stop-color="#613350"/><stop offset=".5" stop-color="#37253c"/><stop offset="1" stop-color="#974e7d"/>
+    </linearGradient>
+    <linearGradient id="orangeTop" x2="1" y2="1">
+      <stop stop-color="#684333"/><stop offset=".5" stop-color="#382b36"/><stop offset="1" stop-color="#8a5246"/>
+    </linearGradient>
+    <linearGradient id="edge" x2="1" y2="0">
+      <stop stop-color="#b99aff" stop-opacity=".2"/><stop offset=".5" stop-color="#f0d7ff"/><stop offset="1" stop-color="#c6a9ff" stop-opacity=".25"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-50%" width="160%" height="220%">
+      <feDropShadow dx="0" dy="16" stdDeviation="12" flood-color="#06040d" flood-opacity=".55"/>
+    </filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <clipPath id="frame"><rect x="1" y="1" width="1118" height="508" rx="24"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', Arial, sans-serif; }
+    .mono { font-family: Consolas, 'Courier New', monospace; }
+    .float-top { animation: rise 7s ease-in-out infinite; }
+    .float-mid { animation: rise 7s ease-in-out -1.4s infinite; }
+    .float-base { animation: rise 7s ease-in-out -2.8s infinite; }
+    .signal { animation: breathe 4s ease-in-out infinite; }
+    @keyframes rise { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+    @keyframes breathe { 0%,100% { opacity: .4; } 50% { opacity: .95; } }
+    @media (prefers-reduced-motion: reduce) {
+      .float-top, .float-mid, .float-base, .signal { animation: none; }
+    }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1120" height="510" fill="url(#background)"/>
+    <ellipse cx="870" cy="245" rx="365" ry="320" fill="url(#aura)"/>
+    <ellipse cx="600" cy="510" rx="410" ry="200" fill="url(#warm)"/>
+    <g stroke="#c5abef" stroke-opacity=".055" fill="none">
+      <path d="M604 0V510M668 0V510M732 0V510M796 0V510M860 0V510M924 0V510M988 0V510M1052 0V510"/>
+      <path d="M604 64H1120M604 128H1120M604 192H1120M604 256H1120M604 320H1120M604 384H1120"/>
+    </g>
+    <path d="M56 88H1064" stroke="#ffffff" stroke-opacity=".09"/>
+    <g transform="translate(56 39)" stroke-linejoin="round">
+      <path d="M0 8 15 0 30 8 15 16Z" fill="#bba0ff"/>
+      <path d="M0 15 15 23 30 15" fill="none" stroke="#ed8ec8" stroke-width="3"/>
+      <path d="M0 22 15 30 30 22" fill="none" stroke="#ffb071" stroke-width="3"/>
+    </g>
+    <text x="101" y="62" font-size="21" font-weight="700" fill="#f4effb">Dev Stack<tspan fill="#a9a0bc" font-weight="400"> / Builder</tspan></text>
+    <circle cx="895" cy="54" r="3" fill="#bba0ff" class="signal"/>
+    <text x="909" y="58" class="mono" font-size="10" letter-spacing="1.4" fill="#c4b6d8">BUILT FOR BUILDERS</text>
+
+    <text x="56" y="135" class="mono" font-size="11" letter-spacing="2.7" fill="#bca6df">CHOOSE YOUR TOOLS. SHAPE YOUR PROJECT.</text>
+    <text x="52" y="211" font-size="62" font-weight="750" letter-spacing="-2.7" fill="#f7f2fc">Your next idea.</text>
+    <text x="52" y="281" font-size="66" font-weight="750" letter-spacing="-2.8" fill="url(#brand)">Fully stacked.</text>
+    <text x="56" y="323" font-size="16" fill="#b9aecb">Explore the technologies. Collect your favorites.</text>
+    <text x="56" y="348" font-size="16" fill="#b9aecb">Bring your development stack together.</text>
+    <g transform="translate(56 376)">
+      <rect width="81" height="29" rx="7" fill="#bba0ff" fill-opacity=".08" stroke="#bba0ff" stroke-opacity=".24"/>
+      <text x="40.5" y="19" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.2" fill="#d4c4f6">REACT</text>
+      <rect x="91" width="70" height="29" rx="7" fill="#f28cc6" fill-opacity=".06" stroke="#f28cc6" stroke-opacity=".23"/>
+      <text x="126" y="19" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.2" fill="#ecc2da">VITE</text>
+      <rect x="171" width="113" height="29" rx="7" fill="#ffb071" fill-opacity=".06" stroke="#ffb071" stroke-opacity=".22"/>
+      <text x="227.5" y="19" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.2" fill="#edcfba">TAILWIND CSS</text>
+    </g>
+
+    <ellipse cx="851" cy="380" rx="163" ry="27" fill="#080511" opacity=".7"/>
+    <g stroke="#b99aff" stroke-opacity=".25" stroke-dasharray="3 7" fill="none">
+      <path d="M686 211V337M846 131V255M1012 211V337"/>
+    </g>
+
+    <g class="float-base">
+      <g filter="url(#shadow)">
+        <path d="M675 315 845 233 1015 315 845 398Z" fill="url(#orangeTop)" stroke="#e6a180" stroke-opacity=".7"/>
+        <path d="M675 315 845 398V412L675 329Z" fill="#392230" stroke="#b56f62" stroke-opacity=".5"/>
+        <path d="M845 398 1015 315V329L845 412Z" fill="#4d2d3d" stroke="#b56f62" stroke-opacity=".5"/>
+        <path d="M687 326 845 403 1003 326" fill="none" stroke="#ffb071" stroke-width="1.5" opacity=".7"/>
+      </g>
+      <g transform="matrix(.85 .41 -.85 .41 845 255)">
+        <rect width="155" height="155" rx="12" fill="#160f24" fill-opacity=".45" stroke="#ecac8a" stroke-opacity=".3"/>
+        <g fill="none" stroke="#ffcca5" stroke-width="2">
+          <ellipse cx="77" cy="51" rx="34" ry="13"/>
+          <path d="M43 51V98C43 115 111 115 111 98V51M43 75C43 92 111 92 111 75M43 98C43 115 111 115 111 98"/>
+        </g>
+        <circle cx="128" cy="129" r="3" fill="#ffb071" class="signal"/>
+      </g>
+    </g>
+
+    <g class="float-mid">
+      <g filter="url(#shadow)">
+        <path d="M675 245 845 163 1015 245 845 328Z" fill="url(#pinkTop)" stroke="#f29fcf" stroke-opacity=".8"/>
+        <path d="M675 245 845 328V342L675 259Z" fill="#43213c" stroke="#b66b9e" stroke-opacity=".5"/>
+        <path d="M845 328 1015 245V259L845 342Z" fill="#582d50" stroke="#b66b9e" stroke-opacity=".5"/>
+        <path d="M687 256 845 333 1003 256" fill="none" stroke="#f59bd3" stroke-width="1.5" opacity=".8"/>
+      </g>
+      <g transform="matrix(.85 .41 -.85 .41 845 185)">
+        <rect width="155" height="155" rx="12" fill="#1e132c" fill-opacity=".6" stroke="#f4acd9" stroke-opacity=".4"/>
+        <g stroke="#f3b4db" stroke-width="2" fill="none" stroke-linejoin="round">
+          <path d="M53 50 28 77 53 104M103 50 128 77 103 104M88 44 68 110"/>
+        </g>
+        <path d="M24 129H65M76 129H99" stroke="#f28cc6" stroke-width="3" stroke-linecap="round" opacity=".65"/>
+      </g>
+    </g>
+
+    <g class="float-top">
+      <g filter="url(#shadow)">
+        <path d="M675 175 845 93 1015 175 845 258Z" fill="url(#violetTop)" stroke="url(#edge)" stroke-width="1.5"/>
+        <path d="M675 175 845 258V272L675 189Z" fill="#342148" stroke="#9e7cd2" stroke-opacity=".5"/>
+        <path d="M845 258 1015 175V189L845 272Z" fill="#493065" stroke="#9e7cd2" stroke-opacity=".5"/>
+        <path d="M687 186 845 263 1003 186" fill="none" stroke="#c8acff" stroke-width="2" opacity=".9"/>
+        <path d="M687 186 845 263 1003 186" fill="none" stroke="#c8acff" stroke-width="3" filter="url(#glow)" opacity=".5"/>
+      </g>
+      <g transform="matrix(.85 .41 -.85 .41 845 115)">
+        <rect width="155" height="155" rx="12" fill="#20172f" stroke="#b99aff" stroke-opacity=".55"/>
+        <path d="M0 30H155" stroke="#b99aff" stroke-opacity=".3"/>
+        <circle cx="16" cy="15" r="3" fill="#ffb071"/>
+        <circle cx="28" cy="15" r="3" fill="#f28cc6"/>
+        <circle cx="40" cy="15" r="3" fill="#bba0ff"/>
+        <rect x="15" y="45" width="48" height="92" rx="5" fill="#ae86ec" fill-opacity=".18"/>
+        <rect x="75" y="45" width="64" height="39" rx="5" fill="#be98fa" fill-opacity=".55"/>
+        <rect x="75" y="96" width="28" height="41" rx="4" fill="#f28cc6" fill-opacity=".4"/>
+        <rect x="111" y="96" width="28" height="41" rx="4" fill="#ffb071" fill-opacity=".5"/>
+        <path d="M26 60H50M26 72H43M26 91H50M26 103H45" stroke="#d9c3ff" stroke-width="3" stroke-linecap="round" opacity=".65"/>
+      </g>
+    </g>
+
+    <g class="mono" font-size="9" letter-spacing="1.2" fill="#cdbde2">
+      <path d="M1019 175H1050" stroke="#bba0ff" stroke-opacity=".6"/>
+      <text x="1016" y="161">UI</text>
+      <path d="M1019 245H1050" stroke="#f28cc6" stroke-opacity=".6"/>
+      <text x="1016" y="231">LOGIC</text>
+      <path d="M1019 315H1050" stroke="#ffb071" stroke-opacity=".6"/>
+      <text x="1016" y="301">DATA</text>
+    </g>
+    <path d="M56 435H1064" stroke="#ffffff" stroke-opacity=".09"/>
+    <text x="56" y="473" font-size="21" font-weight="650" fill="#f4effb">15<tspan dx="13" class="mono" font-size="10" font-weight="400" letter-spacing="1.1" fill="#b9aecb">TECHNOLOGIES</tspan></text>
+    <path d="M251 456V479M464 456V479" stroke="#ffffff" stroke-opacity=".12"/>
+    <text x="281" y="473" font-size="21" font-weight="650" fill="#f4effb">07<tspan dx="13" class="mono" font-size="10" font-weight="400" letter-spacing="1.1" fill="#b9aecb">CATEGORIES</tspan></text>
+    <text x="494" y="473" font-size="21" font-weight="650" fill="#f4effb">01<tspan dx="13" class="mono" font-size="10" font-weight="400" letter-spacing="1.1" fill="#b9aecb">PERSONAL STACK</tspan></text>
+    <text x="1063" y="471" text-anchor="end" class="mono" font-size="10" letter-spacing="1.8" fill="#bca6df">EXPLORE / SELECT / BUILD</text>
+  </g>
+  <rect x=".5" y=".5" width="1119" height="509" rx="24" fill="none" stroke="#a48bc7" stroke-opacity=".23"/>
+</svg>

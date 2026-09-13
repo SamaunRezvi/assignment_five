@@ -2,42 +2,24 @@
 
 <div align="center">
 
-<br />
-
-<img src="./src/assets/banner-stack.png" alt="An isometric development stack with luminous violet, pink and blue layers" width="300" />
-
-<img src="./src/assets/logo-text.png" alt="Dev Stack" width="220" />
-
-### Build a stack. Make it yours.
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=2000&amp;color=A78BFA&amp;center=true&amp;vCenter=true&amp;width=640&amp;height=50&amp;lines=Frontend.+Backend.+Everything+in+between.;One+place+for+your+next+development+stack." alt="Frontend, backend and everything in between. One place for your next development stack." width="640" />
-
-<br />
-
-<img src="https://img.shields.io/badge/React_18-000000?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="React 18" />
-<img src="https://img.shields.io/badge/Vite_6-000000?style=for-the-badge&amp;logo=vite&amp;logoColor=BD93F9" alt="Vite 6" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-000000?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=38BDF8" alt="Tailwind CSS" />
-<img src="https://img.shields.io/badge/React_Toastify-000000?style=for-the-badge&amp;logo=react&amp;logoColor=FF6B9D" alt="React Toastify" />
+<img src="./assets/readme-stack.svg" alt="Dev Stack Builder: Your next idea, fully stacked. Animated 3D layers for interface, logic and data." width="1120" />
 
 <br /><br />
 
-<sub><strong>15</strong> TECHNOLOGIES &nbsp;&nbsp;◆&nbsp;&nbsp; <strong>07</strong> CATEGORIES &nbsp;&nbsp;◆&nbsp;&nbsp; <strong>01</strong> PERSONAL STACK</sub>
+<a href="#about-the-project">The project</a> &nbsp; / &nbsp;
+<a href="#the-experience">The experience</a> &nbsp; / &nbsp;
+<a href="#tech-stack">The toolkit</a> &nbsp; / &nbsp;
+<a href="#getting-started">Get started</a> &nbsp; / &nbsp;
+<a href="#react-questions">React Q&amp;A</a>
 
 <br /><br />
 
-<a href="#about-the-project"><strong>Overview</strong></a> &nbsp; · &nbsp;
-<a href="#the-experience"><strong>Experience</strong></a> &nbsp; · &nbsp;
-<a href="#under-the-hood"><strong>Architecture</strong></a> &nbsp; · &nbsp;
-<a href="#getting-started"><strong>Setup</strong></a> &nbsp; · &nbsp;
-<a href="#react-questions"><strong>React Q&amp;A</strong></a> &nbsp; · &nbsp;
-<a href="#submission"><strong>Submission</strong></a>
-
-<br />
+<strong>A personal workspace for your technology choices.</strong><br />
+<sub>Browse the catalog. Assemble your stack. Make room for your next idea.</sub>
 
 </div>
 
----
-
+<br />
 ## About the Project
 
 **Dev Stack Builder brings your technology choices into one place.**
@@ -52,17 +34,17 @@ Built with React, this project focuses on a complete selection flow: loading dat
 <tr>
 <td width="33%" valign="top">
   <sub>01 / EXPLORE</sub>
-  <h3>Find your tools.</h3>
+  <h3>Discover your tools.</h3>
   <p>Browse 15 technologies across 7 categories. Each card brings together an icon, description, badge, difficulty level and rating.</p>
 </td>
 <td width="34%" valign="top">
   <sub>02 / ASSEMBLE</sub>
-  <h3>See it take shape.</h3>
+  <h3>Compose your stack.</h3>
   <p>Add a technology to Your Stack. The panel and selected count update immediately, while the card reflects your choice.</p>
 </td>
 <td width="33%" valign="top">
   <sub>03 / REFINE</sub>
-  <h3>Keep what fits.</h3>
+  <h3>Refine your choices.</h3>
   <p>Remove one tool or clear the stack and start again. Toast notifications confirm changes along the way.</p>
 </td>
 </tr>
@@ -81,7 +63,7 @@ Built with React, this project focuses on a complete selection flow: loading dat
 
 > **Session behavior:** Selections live in React state. Refreshing the page starts a fresh stack.
 
----
+<br />
 
 ## Tech Stack
 
@@ -119,7 +101,7 @@ Built with React, this project focuses on a complete selection flow: loading dat
 
 </details>
 
----
+<br />
 
 ## Under the Hood
 
@@ -168,7 +150,7 @@ src/
 
 </details>
 
----
+<br />
 
 ## Getting Started
 
@@ -188,7 +170,7 @@ Open the local URL shown in the terminal, usually `http://localhost:5173`.
 | Preview the build | `npm run preview` |
 | Run ESLint | `npm run lint` |
 
----
+<br />
 
 ## React Questions
 
@@ -256,7 +238,7 @@ A parent passes data through props. It can also pass a callback function for the
 
 In this example, `tech` and `isAdded` supply the card's data and selection status. Clicking **Add to Stack** calls `onAdd(tech)` inside `TechCard`. The parent's `handleAdd` function then updates the stack state in `TechnologiesSection`.
 
----
+<br />
 
 ## Submission
 
@@ -265,22 +247,18 @@ In this example, `tech` and `isAdded` supply the card's data and selection statu
 | GitHub Repository Link | [SamaunRezvi/assignment_five](https://github.com/SamaunRezvi/assignment_five) |
 | Live Site Link | Not provided yet. |
 
----
+<br />
 
 <div align="center">
 
 <br />
 
-<img src="./src/assets/logo-text.png" alt="Dev Stack" width="140" />
+<img src="./src/assets/logo-text.png" alt="Dev Stack" width="130" />
 
-<p><sub>A place for your next stack.</sub></p>
+<p><sub>THOUGHTFUL TOOLS. BETTER STARTING POINTS.</sub></p>
 
-<img src="https://img.shields.io/badge/Made_with-React-EC4899?style=flat-square&amp;logo=react&amp;logoColor=white" alt="Made with React" />
+<a href="https://github.com/SamaunRezvi/assignment_five">Explore the repository ↗</a> &nbsp; · &nbsp; <a href="#top">Back to top ↑</a>
 
-<br /><br />
-
-<a href="#top"><strong>Back to top ↑</strong></a>
-
-<br /><br />
+<br />
 
 </div>
