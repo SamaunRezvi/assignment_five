@@ -4,40 +4,23 @@
 
 <img src="./assets/readme-stack.svg" alt="Dev Stack Builder: Your next idea, fully stacked. Animated 3D layers for interface, logic and data." width="1120" />
 
-<br />
+<p>
+  <a href="#getting-started"><img src="https://img.shields.io/badge/Get_Started-8B5CF6?style=for-the-badge" alt="Get started" height="32" /></a>
+  &nbsp;
+  <a href="#about-the-project"><img src="https://img.shields.io/badge/Overview-282039?style=for-the-badge" alt="Project overview" height="32" /></a>
+  &nbsp;
+  <a href="#the-experience"><img src="https://img.shields.io/badge/Experience-392137?style=for-the-badge" alt="Explore the experience" height="32" /></a>
+  &nbsp;
+  <a href="#tech-stack"><img src="https://img.shields.io/badge/Tech_Stack-3B2B26?style=for-the-badge" alt="View the tech stack" height="32" /></a>
+  &nbsp;
+  <a href="#react-questions"><img src="https://img.shields.io/badge/React_Q%26A-282039?style=for-the-badge" alt="Read the React questions and answers" height="32" /></a>
+</p>
 
-<table width="100%">
-<tr>
-<td width="20%" align="center">
-  <sub>01</sub><br />
-  <a href="#about-the-project"><strong>Project</strong></a>
-</td>
-<td width="20%" align="center">
-  <sub>02</sub><br />
-  <a href="#the-experience"><strong>Experience</strong></a>
-</td>
-<td width="20%" align="center">
-  <sub>03</sub><br />
-  <a href="#tech-stack"><strong>Toolkit</strong></a>
-</td>
-<td width="20%" align="center">
-  <sub>04</sub><br />
-  <a href="#getting-started"><strong>Setup ↗</strong></a>
-</td>
-<td width="20%" align="center">
-  <sub>05</sub><br />
-  <a href="#react-questions"><strong>React Q&amp;A</strong></a>
-</td>
-</tr>
-</table>
+<h2>Great projects start with the right tools.</h2>
 
-<br />
+<p>Find your favorites. Connect your choices. Build a stack that feels like yours.</p>
 
-<sub>YOUR NEXT BUILD STARTS HERE</sub>
-
-<h3>One workspace. Your ideal stack.</h3>
-
-<p>Discover the tools that fit your idea.<br />Bring them together in a stack of your own.</p>
+<p><sub><strong>CURATED CATALOG</strong> &nbsp; · &nbsp; <strong>LIVE STACK BUILDER</strong> &nbsp; · &nbsp; <strong>INSTANT FEEDBACK</strong></sub></p>
 
 </div>
 
